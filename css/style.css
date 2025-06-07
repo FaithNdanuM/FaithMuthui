@@ -1,0 +1,40 @@
+ @import "tailwindcss";
+ /* Custom CSS */
+        .password-requirements {
+            display: none;
+        }
+        .password-requirements.show {
+            display: block;
+        }
+        .testimonial-slide {
+            display: none;
+        }
+        .testimonial-slide.active {
+            display: block;
+            animation: fadeIn 0.5s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .custom-shape-divider-bottom-1698437743 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            transform: rotate(180deg);
+        }
+
+        .custom-shape-divider-bottom-1698437743 svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 150px;
+        }
+
+        .custom-shape-divider-bottom-1698437743 .shape-fill {
+            fill: #F3F4F6;
+        }
+    
